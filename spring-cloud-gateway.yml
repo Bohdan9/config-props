@@ -6,5 +6,5 @@ spring-config-server:
       - PUT:/bank-profile/
   routes:
     bank-service:
-      - GET:/bank-profile/*
-      - PUT:/bank-profile/*
+      - GET:/bank-profile/**
+      - PUT:/bank-profile/**
