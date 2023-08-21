@@ -1,9 +1,9 @@
 spring-config-server:
   permissions:
-    VIEW_BANK_PROFILE:
-      - GET:/bank-profile/
+   VIEW_BANK_PROFILE:
+      - GET:/bank-profile/{id}
     EDIT_BANK_PROFILE:
-      - PUT:/bank-profile/
+      - PUT:/bank-profile
   routes:
     bank-service:
       - GET:/bank-profile/**
